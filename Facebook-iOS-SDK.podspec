@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     =  'https://developers.facebook.com/docs/ios/'
   s.author       =  'Facebook'
   s.source       =  { :git => 'https://github.com/paterson/facebook-ios-sdk-pod.git', :tag => 'sdk-version-3.15.0' }
-  s.source_files =  'src/*.{h,m}', 'src/Base64/*.{h,m}', 'src/Cryptography/*.{h,m}', 'src/Ads/*.{h,m}', 'src/Core/*.{h,m}', 'src/DeviceAPI/*.{h,m}', 'src/Legacy/*.{h,m}', 'src/Login/*.{h,m}', 'src/Network/*.{h,m}', 'src/UI/*.{h,m}'
+  s.source_files =  'src/*.{h,m}', 'src/Base64/*.{h,m}',  'src/Cryptography/*.{h,m}', 'src/Core/*.{h,m}', 'src/DeviceAPI/*.{h,m}', 'src/Legacy/*.{h,m}', 'src/Login/*.{h,m}', 'src/Network/*.{h,m}', 'src/Network/*.{h,m}',  'src/UI/*.{h,m}', 'src/Insights/*.{h,m}'
   s.resources    =  'src/FBUserSettingsViewResources.bundle'
   s.header_dir   =  'FacebookSDK'
   s.weak_frameworks = 'Accounts', 'Social', 'Security'
